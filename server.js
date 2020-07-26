@@ -54,5 +54,5 @@ app.get("/complement", function(req, res) {
 // 
 app.use("/public", express.static("./public"));
 
-app.listen(3000);
-console.log("listening on http://localhost:3000");
+app.listen(80);
+console.log("listening on http://localhost:80");
